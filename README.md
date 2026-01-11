@@ -9,6 +9,14 @@ TCP 연결을 지원하는 LightBurn과 Pronterface에서 테스트되었습니�
 This project provides a TCP bridge for sending G-code directly to Moonraker.  
 It has been tested with TCP-capable clients such as LightBurn and Pronterface.
 
+# How To use
+
+기본적으로 TCP 4125 포트를 사용하여 통신합니다.  
+웹 콘솔은 8080 포트로 접속할 수 있습니다.
+
+By default, the bridge listens on TCP port 4125.  
+The web console is available on port 8080.
+
 
 ## References
 
